@@ -1,7 +1,107 @@
-<html>
-  <body>
-    <h1>Your name here</h1>
-    <h2>Your student code here</h2>
-    <h2>ป้อคิงก้า บ่าง่าว</h2>
-  </body>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>แคนขายไข่</title>
+  <style>
+    body {
+      font-family: 'Sarabun', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffbea;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header img {
+      width: 120px;
+      border-radius: 50%;
+    }
+    h1 {
+      font-size: 2em;
+      margin-top: 10px;
+      color: #f5b400;
+    }
+    .tagline {
+      font-size: 1.2em;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px;
+    }
+    .item {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      padding: 15px;
+      text-align: center;
+    }
+    .item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .item h2 {
+      color: #f5b400;
+      margin: 10px 0 5px;
+    }
+    .price {
+      font-weight: bold;
+      color: #444;
+    }
+    .desc {
+      font-size: 0.95em;
+      color: #666;
+      margin-top: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="โลโก้แคนขายไข่">
+    <h1>แคนขายไข่</h1>
+    <div class="tagline">อร่อยง่าย สไตล์นักศึกษา ไข่เจียวร้อนๆ พร้อมเสิร์ฟทุกวัน!</div>
+  </header>
+
+  <section class="menu">
+    <div class="item">
+      <img src="omelette-pork.jpg" alt="ไข่เจียวหมูสับ">
+      <h2>ไข่เจียวหมูสับคลาสสิก</h2>
+      <div class="price">45 บาท</div>
+      <div class="desc">กรอบนอกนุ่มใน หมูสับแน่นเต็มคำ อร่อยแบบต้นตำรับที่ไม่มีวันเบื่อ!</div>
+    </div>
+    <div class="item">
+      <img src="omelette-cheese.jpg" alt="ไข่เจียวชีสเยิ้ม">
+      <h2>ไข่เจียวชีสเยิ้ม</h2>
+      <div class="price">55 บาท</div>
+      <div class="desc">ชีสเยิ้มๆ ละลายในปาก ผสมกับไข่เจียวหอมๆ ฟินทุกคำที่กิน!</div>
+    </div>
+    <div class="item">
+      <img src="omelette-shrimp.jpg" alt="ไข่เจียวกุ้งเด้ง">
+      <h2>ไข่เจียวกุ้งเด้ง</h2>
+      <div class="price">65 บาท</div>
+      <div class="desc">กุ้งสดเด้งๆ ผัดรวมกับไข่เจียวหอมๆ อร่อยแบบพรีเมียมในราคานักศึกษา!</div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 แคนขายไข่ — ร้านไข่เจียวสำหรับนักศึกษามหาวิทยาลัย
+  </footer>
+
+</body>
 </html>
